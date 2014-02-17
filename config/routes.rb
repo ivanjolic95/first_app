@@ -53,13 +53,4 @@ FirstApp::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
- 	resources :articles
- 	GET     /articles           index   display a list of all articles
-GET     /articles/new       new     return an HTML form for creating a new article
-POST    /articles           create  create a new article
-GET     /articles/:id       show    display a specific article
-GET     /articles/:id/edit  edit    return an HTML form for editing a article
-PUT     /articles/:id       update  update a specific article
-DELETE  /articles/:id       destroy delete a specific article
- 	root to: "articles#index"
 end
